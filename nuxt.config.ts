@@ -3,20 +3,20 @@ export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui'
+    '@nuxt/ui',
   ],
   ui: {
-    icons: ['heroicons', 'simple-icons']
+    icons: ['heroicons', 'simple-icons'],
   },
   devtools: {
-    enabled: true
+    enabled: true,
   },
   eslint: {
     config: {
       stylistic: {
         commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
-  }
+        braceStyle: '1tbs',
+      },
+    },
+  },
 })

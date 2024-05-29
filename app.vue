@@ -2,23 +2,23 @@
 const links = [{
   label: 'Features',
   to: '#features',
-  exactHash: true
+  exactHash: true,
 }, {
   label: 'Documentation',
   to: 'https://ui.nuxt.com/pro',
-  target: '_blank'
+  target: '_blank',
 }]
 
 useHead({
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/favicon.ico' },
   ],
   htmlAttrs: {
-    lang: 'en'
-  }
+    lang: 'en',
+  },
 })
 
 const title = 'Nuxt UI Pro - Starter'
@@ -31,7 +31,7 @@ useSeoMeta({
   ogDescription: description,
   ogImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
   twitterImage: 'https://ui-pro-starter.nuxt.dev/social-card.png',
-  twitterCard: 'summary_large_image'
+  twitterCard: 'summary_large_image',
 })
 </script>
 
